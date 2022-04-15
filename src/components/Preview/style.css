@@ -1,0 +1,79 @@
+:root {
+  --black: #000000;
+  --primary: #4e4e4e;
+  --blue: #0070f3;
+  font-size: 14px;
+  letter-spacing: 0.01rem;
+}
+
+body{
+  color: var(--primary);
+}
+
+* {
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.text-primary{
+  color: var(--primary) !important;
+}
+
+.name-heading {
+  color: var(--black);
+  font-weight: 500;
+}
+
+.link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.section-title {
+  color: var(--blue);
+  font-size: 1.1rem;
+}
+
+.exp-meta{
+  font-size: 1.1rem !important;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  color: var(--black);
+}
+
+.tech-title{
+  font-weight: 500;
+  width: 11rem;
+  display: inline-block;
+}
+
+.light-bold{
+  font-weight: 500 !important;
+  color: var(--black) !important;
+}
+
+ul{
+  margin-bottom: 0.6rem
+}
+
+.mb-0{
+  margin-bottom: 0 !important;
+}
+
+.no-bullets{
+  list-style: none;
+  padding-left: 0;
+}
+
+.description ul, .tech-skills ul, .education ul, .projects ul {
+  padding-left: 2rem;
+}
+
+li{
+  letter-spacing: 0.3px;
+}
