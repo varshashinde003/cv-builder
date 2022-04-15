@@ -29,7 +29,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-netlify": "react-scripts build && echo '/*    /index.html   200' | cat >build/_redirects "
   },
   "eslintConfig": {
     "extends": [
